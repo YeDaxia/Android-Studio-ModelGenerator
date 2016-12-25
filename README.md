@@ -1,6 +1,6 @@
 # Android-Studio-ModelGenerator
 
-用于生成Api接口的数据模型类，你可以根据需要修改template模板，如果需要修改数据源的话，则可以修改`ProviderFactory`里面返回的对象，默认数据源是JsonEntryProvider。
+用于生成Api接口的数据模型类，你可以根据需要修改template模板，如果需要修改数据源的话，则可以修改`ProviderFactory`里面返回的对象，默认数据源是`JsonEntryProvider`。
 
 # 数据源定义:
 
@@ -60,7 +60,7 @@ public class Package implements Serializable{
 
 2. Json Api[JsonEntryProvider]:
 
-```json
+```
 {
 	pkgFile:'file',
 	gameId: 1000,
