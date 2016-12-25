@@ -1,0 +1,17 @@
+/tmp
+/modules
+/node_modules
+/test-result
+/logs
+/eclipse
+.classpath
+.project
+.settings/
+.ides/
+.idea/
+package.json
+gulpfile.js
+/target/
+/lib/
+
+/out

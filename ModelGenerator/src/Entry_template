@@ -1,0 +1,6 @@
+
+public class ${CLASS_NAME} implements Serializable{
+
+${FIELDS}
+${METHODS}
+}
