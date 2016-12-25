@@ -2,9 +2,11 @@
 
 用于生成Api接口的数据模型类，你可以根据需要修改template模板，如果需要修改数据源的话，则可以修改`ProviderFactory`里面返回的对象，默认数据源是`JsonEntryProvider`。
 
+![](https://github.com/YeDaxia/Android-Studio-ModelGenerator/blob/master/generate_code_view.png)
+
 # 数据源定义:
 
-1. 表格数据[TableEntryProvider]:
+***1.表格数据[TableEntryProvider]:***
 
 | 字段        | 类型           | 描述  |
 | ------------|:-------------:| -----:|
@@ -58,7 +60,7 @@ public class Package implements Serializable{
 }
 ```
 
-2. Json Api[JsonEntryProvider]:
+***2.Json Api[JsonEntryProvider]:***
 
 ```
 {
@@ -69,7 +71,7 @@ public class Package implements Serializable{
 ```
 生成代码和上面一致。
 
-3. 自定义数据源:
+***3.自定义数据源:***
 
 实现`IEntryProvider`接口，然后在`ProviderFactory`中返回即可。
 
